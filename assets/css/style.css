@@ -1,14 +1,16 @@
 /*-----Background-----*/
 
 .videosize {
-    position:absolute;
+    position:fixed;
     z-index:-1;
     display: block;
     height: 100%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-     
+    margin: 0;
+    overflow: hidden;
+    
 
     
 
@@ -40,7 +42,12 @@ body {
 
 .name {
     padding: 20px;
-    margin-left: 50px;
+    
+} 
+
+.name-position {
+    padding-left: 10%;
+    
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -94,6 +101,4 @@ body {
     
 }
 
-.navigation .navbar {
-    float: right;
-}
+
