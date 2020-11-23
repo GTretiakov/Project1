@@ -143,14 +143,21 @@ footer {
     
 }
 
+/*-----Contact-----*/
+
+.center-form {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
 
 
 /*-----Smartphone-----*/
 
 @media(max-width:992px) {
    
-.videosize {
-    
+.center-form {
+    width: 80%;
 }
-
 
