@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Lobster&display=swap');
+
 /*-----Background-----*/
 
 .videosize {
@@ -26,9 +28,19 @@ body {
 }
 
 /*-----Header-----*/
+
+header {
+    height: 20%;
+}
+
+h1 {font-family: "Goldman", sans-serif }
+.nav-item {font-family: "Lobster", sans-serif }
+h5 {font-family: "Goldman", sans-serif }
+
 .header {
     color: #fff;
-    
+    height: 20%;
+    position: relative;
 }
 
 .bg-light {
@@ -72,9 +84,21 @@ body {
 
 /*-----Footer-----*/
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
 .social-links {
     background-color: rgba(0, 0, 0, 0.0);
-    margin: 0;
+    
+    
+    
 }
 
 .list-inline-item:not(:last-child) {
@@ -92,6 +116,34 @@ body {
 .social-links li a i:hover {
     background: #e84610;
 }
+
+/*-----About Me-----*/
+
+.aboutme {
+    
+    background-color:rgba(0, 0, 0, 0.5);
+    color: #fff;
+    
+
+}
+
+.aboutme-text {
+    text-align: justify;
+    font-size: 24px;
+    padding-top: 20px
+}
+
+.aboutme-content img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.measurements {
+    padding-top: 20px;
+    
+}
+
+
 
 /*-----Smartphone-----*/
 
