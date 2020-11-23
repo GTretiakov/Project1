@@ -19,6 +19,8 @@
 }
 
 .video-position {
+
+    padding: 0;
     
 }
 
@@ -142,6 +144,30 @@ footer {
     padding-top: 20px;
     
 }
+
+/*-----Gallery-----*/
+
+#carouselExampleSlidesOnly {
+    
+
+}
+
+.carousel {
+    
+}
+
+.carousel-item {
+  height: 80vh;
+  
+}
+
+.carousel-item img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
 
 /*-----Contact-----*/
 
