@@ -1,4 +1,4 @@
-# Modeling Portfolio Website for Glib Tretiakov
+# Modeling Portfolio Website
 This website is a milestone project, and a part of Full Stack Software Development program, which summarizes HTML/CSS module provided by Code Institute, an educational platform used by Canadian Business College.<br/>
 The website was developed as a model’s online portfolio. The main purpose of it is to increase model's online presence and attract interest of potential clients searching to book a model for a project.
 
@@ -11,12 +11,12 @@ The most complex part of this website is "About Me" page as it consists of three
 
 ## Features
 -	Navigation bar that becomes collapsible on devices with smaller screen.
--	“Carousel” gallery that switches pictures automatically but also has manual controls.
+-	“Carousel” gallery that switches pictures automatically and also has manual controls.
 -	Footer with ikons linked to social media pages.
 -	Video background repeated on all pages.
 
 ## Features Left to Implement
--	Contact form is not working at the moment.
+-	Contact form is not linked to anything at the moment, so messages won’t be sent. 
 -	Decreasing resolution of video and images may help webpage to load faster. 
 
 ## Technologies Used
@@ -28,3 +28,4 @@ The most complex part of this website is "About Me" page as it consists of three
 -	Font Awesome
 -	Google Fonts
 -	Draw.io
+
