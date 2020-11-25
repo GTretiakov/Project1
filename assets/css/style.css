@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*-----Background-----*/
 
@@ -12,16 +13,10 @@
     transform: translate(-50%, -50%);
     margin: 0;
     overflow: hidden;
-    
-
-    
-
 }
 
 .video-position {
-
     padding: 0;
-    
 }
 
 
@@ -35,9 +30,9 @@ header {
     height: 20%;
 }
 
-h1 {font-family: "Goldman", sans-serif }
-.nav-item {font-family: "Lobster", sans-serif }
-h5 {font-family: "Goldman", sans-serif }
+h1 {font-family: "Goldman", sans-serif; }
+.nav-item {font-family: "Lobster", sans-serif; }
+h5 {font-family: "Goldman", sans-serif; }
 
 .header {
     color: #fff;
@@ -123,16 +118,17 @@ footer {
 
 .aboutme {
     
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:#093145;
     color: #fff;
     
 
 }
 
-.aboutme-text {
+.aboutme-text>p {
     text-align: justify;
     font-size: 24px;
-    padding-top: 20px
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
 }
 
 .aboutme-content img {
@@ -142,18 +138,22 @@ footer {
 
 .measurements {
     padding-top: 20px;
-    
+    font-family: "Lobster", sans-serif;
+    font-size: 24px;
+}
+
+h3.m-padding {
+    font-family: "Goldman", sans-serif;
+}
+
+.m-padding {
+    padding-left: 20px;
 }
 
 /*-----Gallery-----*/
 
-#carouselExampleSlidesOnly {
-    
-
-}
-
-.carousel {
-    
+#carouselExampleControls {
+    background-color: rgba(0, 0, 0, 1)
 }
 
 .carousel-item {
@@ -178,6 +178,9 @@ footer {
     padding-bottom: 10%;
 }
 
+.form-row>.col {
+    padding-top: 10px;
+}
 
 /*-----Smartphone-----*/
 
