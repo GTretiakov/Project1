@@ -31,4 +31,6 @@ The most complex part of this website is "About Me" page as it consists of three
 ## Testing
 Most of the testing was made manually using Google Chrome Inspect tool. To make sure the site is responsive and working properly I’ve done all possible actions on all types of available devices. Navigation bar, social links, carousel, contact form are working as they are expected.<br/>
 Special thanks to http://ami.responsivedesign.is/ where I checked responsiveness on different types of devices.
+![responsive](assets/images/responsive.jpg)
+![responsive2](assets/images/responsive2.jpg)
 
