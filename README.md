@@ -1,6 +1,6 @@
 # Modeling Portfolio Website
 This website is a milestone project, and a part of Full Stack Software Development program, which summarizes HTML/CSS module provided by Code Institute, an educational platform used by Canadian Business College.<br/>
-The website was developed as a model’s online portfolio. The main purpose of it is to increase model's online presence and attract interest of potential clients searching to book a model for a project.
+The website was developed as a model’s online portfolio. The main purpose of it is to increase model's online presence and attract interest of potential clients looking to book a model for a project.
 
 ## UX
 Creating a wireframe for a home page I wanted it to be simple and easy to understand. My original plan was to create header with model's name and navigation bar, footer with social links and a big hero image. But also I didn’t want it to be boring, so I’ve decided to put a short video as a background instead of hero image.
