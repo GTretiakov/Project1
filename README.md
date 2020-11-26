@@ -17,7 +17,6 @@ The most complex part of this website is "About Me" page as it consists of three
 
 ## Features Left to Implement
 -	Contact form is not linked to anything at the moment, so messages won’t be sent. 
--	Decreasing resolution of video and images may help webpage to load faster. 
 
 ## Technologies Used
 -	HTML
@@ -33,4 +32,6 @@ Most of the testing was made manually using Google Chrome Inspect tool. To make 
 Special thanks to http://ami.responsivedesign.is/ where I checked responsiveness on different types of devices.
 ![responsive](assets/images/responsive.jpg)
 ![responsive2](assets/images/responsive2.jpg)
+CSS code was checked with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and no errors were found.
+HTML code was checked with [HTML Validator]( https://validator.w3.org/nu/) and the only warning I’ve got was “Section lacks heading” which we can ignore as it’s not a significant detail and doesn’t affect our website in any way.
 
