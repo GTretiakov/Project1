@@ -9,7 +9,18 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
     <title>Gleb Tretiakov | Model</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("user_9acFKoshl8LTzvjz99juf");
+    })();
+    </script>
+    
 </head>
 <body>
     <header>
@@ -64,9 +75,9 @@
             <div class="col">
                 
                 <div class="center-form">
-                    <form>
+                    <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+                        <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email" required>
                         <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
@@ -113,6 +124,6 @@
             
         </div>
     </footer>
-    
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 </html>
